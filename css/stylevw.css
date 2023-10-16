@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 39.477864583333336vw;
+    width: 100%;
+    background-color: #876CC4;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.4544270833333335vw;
+}
+
+.header-content {
+    margin-top: 8.145833333333334vw;
+    flex-direction: column;
+}
+
+.header1 {
+    color: #FFFFFF;
+    height: 8.145833333333334vw;
+    width: 26.432291666666668vw;
+    font-size:3.9166666666666665vw;
+    line-height: 4.58984375vw;
+    font-weight: 700;
+}
+
+.pre {
+    font-weight: 500;
+    color: #FEBF10;
+}
+
+.header2 {
+    margin-top: 1.068359375vw;
+    color: #FFFFFF;
+    height: 6.640625vw;
+    width: 31.435546875vw;
+    font-size: 2.193359375vw;
+    line-height: 3.2897135416666665vw;
+    font-weight: 400;
+}
+
+.header-btn {
+    margin-top: 1.5579427083333333vw;
+    height: 3.51953125vw;
+    width: 10.226562500000002vw;
+    border-radius: 0.5221354166666666vw;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2532552083333333vw;
+    line-height: 1.9576822916666667vw;
+    font-weight: 600;
+    color: #875FA8;
+    background-color: #FFFFFF;
+    transition: all ease 0.2s;
+}
+
+.header-btn:active {
+    scale: 0.9;
+}
+
+.header-img {
+    width: 44.386067708333336vw;
+    height: 36.083333333333336vw;
+}
+
+.section1 {
+    padding: 6.510416666666667vw 0vw;
+    width: 100%;
+    background-color: #F4F8FB;
+}
+
+
+.sec1-content {
+    height: 17.776041666666668vw;
+    width: 52.21875vw;
+    flex-direction: column;
+    gap: 3.0286458333333335vw;
+}
+
+.sec-point {
+    height: 3.90625vw;
+    width: 52.21875vw;
+    display: flex;
+    gap: 0.41796875vw;
+}
+
+.point {
+    width: 1.6712239583333333vw;
+    height: 1.6712239583333333vw;
+}
+
+.point-content {
+    font-size: 1.2532552083333333vw;
+    line-height: 1.9576822916666667vw;
+    font-size: 400;
+    color: #000000;
+}
+
+.sec1-img {
+    height: 23.1328125vw;
+    width: 38.502604166666664vw;
+}
+
+.section2 {
+    width: 100%;
+    height: 47.623697916666664vw;
+    flex-direction: column;
+    gap: 4.011067708333333vw;
+    background-color: #97BED8;
+}
+
+.sec2-content {
+    width: 72.33072916666667vw;
+    height: 6.380208333333333vw;
+    font-size: 1.8802083333333333vw;
+    line-height: 2.9361979166666665vw;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+.sec2 {
+    font-size: 2.2975260416666665vw;
+    line-height: 3.5885416666666665vw;
+    color: #D10118;
+}
+
+.sec2-vid {
+    height: 26.214192708333332vw;
+    width: 73.94205729166667vw;
+    background-color: #D9D9D9;
+}
+
+.section3 {
+    height: 45.065104166666664vw;
+    width: 100%;
+    background-color: #F4F8FB;
+}
+
+.sec3-para {
+    height: 17.578125vw;
+    width: 46.840494791666664vw;
+    font-size: 3.759765625vw;
+    line-height: 5.872395833333333vw;
+    font-weight: 600;
+    color: #130337;
+}
+
+.sec3-btna {
+    display: flex;
+    margin-top: 2.8391927083333335vw;
+}
+
+.sec3-btn {
+    width: 17.910807291666668vw;
+    height: 5.117187499999999vw;
+    background-color: #876CC4;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 0.5221354166666666vw;
+    border: none;
+    font-size: 1.8802083333333333vw;
+    line-height: 2.9361979166666665vw;
+    font-weight: 600;
+    transition: all ease 0.2s;
+}
+
+.sec3-btn:active {
+    scale: 0.9;
+}
+
+.btn-arrow {
+    height: 10.235026041666666vw;
+    width: 9.190755208333332vw;
+}
+
+.sec3-img {
+    width:40.469401041666664vw;
+    height: 29.294921875vw;
+}
+
+.clients {
+    height: 22.916666666666668vw;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.9680989583333333vw;
+}
+
+.client-text {
+    font-size: 2.5065104166666665vw;
+    line-height: 3.759765625vw;
+    font-weight: 500;
+    color: #000;
+}
+
+.logos {
+    gap: 2.0364583333333335vw;
+}
+
+.logo1 {
+    height: 6.214192708333333vw;
+    width: 14.169921875vw;
+}
+
+.logo2 {
+    height: 3.341796875vw;
+    width: 10.548177083333334vw;
+}
+
+.logo3 {
+    height: 4.856119791666667vw;
+    width: 10.809244791666666vw;
+}
+
+.logo4 {
+    height: 1.8802083333333333vw;
+    width: 11.801432291666666vw;
+}
+
+.logo5 {
+    height: 4.856119791666667vw;
+    width: 8.369791666666666vw;
+}
+
+.logo6 {
+    height: 9.753255208333334vw;
+    width: 7.397135416666667vw;
+}
+
+.logo7 {
+    height: 12.375651041666666vw;
+    width: 8.955729166666666vw;
+}
+
+.testonomial {
+    height: 35.43359375vw;
+    width: 100%;
+    background-color: #F4F8FB;
+    flex-direction: column;
+}
+
+.test1 {
+    height: 2.7994791666666665vw;
+    width: 14.778645833333334vw;
+    font-size: 2.5065104166666665vw;
+    line-height: 2.7571614583333335vw;
+    font-weight: 500;
+}
+
+.test2 {
+    margin-top: 1.001953125vw;
+    height: 1.5625vw;
+    width: 21.223958333333332vw;
+    font-size: 0.9401041666666666vw;
+    line-height: 1.50390625vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+.gap {
+    gap: 1.56640625vw;
+    margin-top: 2.0299479166666665vw;
+}
+
+.left {
+    width: 25.53515625vw;
+    height: 16.781901041666668vw;
+    border-radius: 1.0442708333333333vw;
+    background-color: #FFFFFF;
+    padding-top: 2.0885416666666665vw;
+    padding-left: 3.1328125vw;
+    box-shadow: 0vw 0vw 0.2604166666666667vw #888888;
+}
+
+.quote {
+    height: 2.4544270833333335vw;
+    width: 2.4544270833333335vw;
+}
+
+.test-content {
+    margin-top: 0.6790364583333334vw;
+    height: 6.0546875vw;
+    width: 19.270833333333332vw;
+    font-size: 0.9401041666666666vw;
+    line-height: 1.50390625vw;
+    font-weight: 400;
+}
+
+.test-last {
+    display: flex;
+    align-items: center;
+    margin-top: 1.357421875vw;
+    gap: 1.357421875vw;
+}
+
+.test-l {
+    width: 2.6106770833333335vw;
+    height: 2.6106770833333335vw;
+}
+
+.tl-con {
+    font-size: 1.0442708333333333vw;
+    line-height: 1.2532552083333333vw;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.test-s {
+    font-size: 0.8352864583333334vw;
+    line-height: 1.0026041666666667vw;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.test-btn {
+    margin-top: 3.0807291666666665vw;
+    width: 10.7265625vw;
+    height: 2.96484375vw;
+    border-radius: 0.5221354166666666vw;
+    border: none;
+    cursor: pointer;
+    background-color: #876CC4;
+    color: #FFFFFF;
+    font-size: 0.8352864583333334vw;
+    line-height: 1.3365885416666667vw;
+    font-weight: 700;
+    transition: all ease 0.2s;
+}
+
+.test-btn:active {
+    scale: 0.9;
+}
