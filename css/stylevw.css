@@ -85,6 +85,19 @@
     width: 100%;
     background-color: #F4F8FB;
 }
+@media screen and (max-width:480px){
+    .section1 {
+        flex-direction: column-reverse;
+    }
+    .point {
+        width: 10.75px;
+        height: 10.75px;
+    }
+    .point-content {
+        font-size: 8px;
+        line-height: 12.5px;
+    }
+}
 
 
 .sec1-content {
